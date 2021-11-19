@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Exercicios.css">
+    <title>Thomás Polesel</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img id="logo" src="./logo-Thom.png" alt="LOGO">
+        <ul class="menu">
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/home.html">Habilidades</a></li>
+            <li><a href="/home.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <h1>Semana 3<hr></h1>
+    <p id="subtitulo">Esses são os resultados da minha terceira semana no DevInHouse</p>
+    
+
+    <div class="campos3 ex1">
+        <h2>Exercício 1</h2>
+        <label for="datas3">Insira sua Data de Nascimento</label>
+        <input type="date" name="date" id="datas3">
+        <label for="respostas3">Resultado</label>
+        <input type="text" name="resp" id= "respostas3" readonly="readonly">
+        <button id="exercicio1s3" type="submit"> Calular Idade</button>
+    </div>
+
+    <hr>
+
+    <div class="campos3 ex2">
+        <h2>Exercício 2</h2>
+            <label for="number1">Número 1</label>
+            <input type="number" name="text" id="number1">
+            <label for="number2">Número 2</label>
+            <input type="number" name="text" id="number2">
+
+            <div class="calculadora">
+                <button id="mais">+</button>
+                <button id="menos">-</button>
+                <button id="multiplicacao">*</button>
+                <button id="divisao">/</button>
+            </div>
+            <label for="respostas32">Resposta</label>
+            <input type="text" name="text" id="respostas32" readonly disabled>
+    </div>
+
+    <hr>
+
+
+    <div class="campos3 ex3">
+        <h2>Exercício 3</h2>
+            <label for="number3">Insira um número para saber se é PAR</label>
+            <input type="number" name="text" id="number3">
+            <button id="verificador">Validar</button>
+            <label for="validacao">Resposta</label>
+            <input type="text" name="text" id="validacao" readonly disabled>
+    </div>
+
+    <hr>
+
+    <div class="campos3 ex4">
+        <h2>Exercício 4</h2>
+            <label for="horario">Hora de Acesso</label>
+            <input type="text" name="text" id="horario" readonly disabled>
+    </div>
+
+    <hr>
+
+    <div class="campos3 ex5">
+        <h2>Exercício 5</h2>
+        <label for="horarioAtual">Hora Atual</label>
+        <input type="text" name="text" id="horarioAtual" readonly disabled>
+    </div>
+    <hr>
+
+
+    <div class="campos3 ex6">
+        <h2>Exercício 6</h2>
+        <p id="estacao">Verão</p>
+        <label for="datehoje">Data para verificar</label>
+        <input type="date" name="date" id="datehoje">
+        <div class="images">
+            <img src="./Verao.png" id="verao">
+            <img src="./inverno.png" id="inverno">
+            <img src="./outono.png" id="outono">
+            <img src="./primavera.png" id="primavera">
+        </div>
+    </div>
+    <hr>
+
+    <div class="campos3 ex7">
+        <h2>Exercício 7</h2>
+
+        <section id="secaoAdd">
+            <label for="novoItem">Add item</label>
+            <input type="text" name="item" id="novoItem">
+            <button id="botaoAdd"> + </button>
+        </section>
+
+        <section id="secaoLista">
+            <ul id="minhaLista">
+                
+            </ul>
+
+        </section>
+    </div>
+    <hr>
+
+    <div class="campos3 ex8">
+        <h2>Exercício 8</h2>
+        <button id="salvar">Salvar Itens</button>
+    </div>
+    <hr>
+
+    <div class="campos3 ex9">
+        <h2>Exercício 9</h2>
+        <p>Caso haja algum item no local storage, a lista do exercício 7 estará preenchida com os valores salvos.</p>
+    </div>
+    <hr>
+
+    <div class="campos3 ex10">
+        <h2>Exercício 10</h2>
+        <label for="valorInicial"></label>
+        <input type="number" name="valorI" id="valorInicial" placeholder="Valor a ser calculado">
+        <label for="raiz"></label>
+        <input type="number" name="raiz" id="raiz" placeholder="Raiz a ser calculada">
+        <button id="progA">P.A.</button>
+        <button id="progG">P.G.</button>
+    </div>
+    <hr>
+
+    <footer class="rodape">
+        <div>
+            @ThomasPolesel Developer
+        </div>
+    </footer>
+<script src="./Exercicios3.js"></script>
+</body>
+</html>
